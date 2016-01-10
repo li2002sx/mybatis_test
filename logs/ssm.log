@@ -244,3 +244,17 @@
 [INFO] [2016-01-10 15:50:28][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/showUser.*] onto handler 'userController'
 [INFO] [2016-01-10 15:50:28][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/showUser/] onto handler 'userController'
 [INFO] [2016-01-10 15:50:28][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcher': initialization completed in 652 ms
+[INFO] [2016-01-10 17:03:33][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcher': initialization started
+[INFO] [2016-01-10 17:03:33][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Jan 10 17:03:33 CST 2016]; parent: Root WebApplicationContext
+[INFO] [2016-01-10 17:03:33][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/Users/xiaoliguo/Desktop/dev/java/mybatis_test/target/classes/conf/spring-mvc.xml]
+[INFO] [2016-01-10 17:03:33][org.springframework.web.servlet.view.velocity.VelocityConfigurer]ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+[INFO] [2016-01-10 17:03:33][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/userlist] onto handler 'userController'
+[INFO] [2016-01-10 17:03:33][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/userlist.*] onto handler 'userController'
+[INFO] [2016-01-10 17:03:33][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/userlist/] onto handler 'userController'
+[INFO] [2016-01-10 17:03:33][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/{id}] onto handler 'userController'
+[INFO] [2016-01-10 17:03:33][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/{id}.*] onto handler 'userController'
+[INFO] [2016-01-10 17:03:33][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/{id}/] onto handler 'userController'
+[INFO] [2016-01-10 17:03:33][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/showUser] onto handler 'userController'
+[INFO] [2016-01-10 17:03:33][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/showUser.*] onto handler 'userController'
+[INFO] [2016-01-10 17:03:33][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/showUser/] onto handler 'userController'
+[INFO] [2016-01-10 17:03:34][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcher': initialization completed in 1057 ms
